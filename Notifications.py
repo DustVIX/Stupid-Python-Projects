@@ -7,6 +7,6 @@ toast = Notification(
     icon=r"c:\Users\DustVIX\Downloads\windows.ico" 
 )
 
-toast.add_actions(label="موفق", launch="C:\\path\\to\\file.txt")
+toast.add_actions(label="موافق", launch="C:\\path\\to\\file.txt")
 toast.set_audio(audio.Default, loop=False)
 toast.show()
